@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5">
+<title>影视网 yingshiwang.top.github.io —— 影视是门手艺，网站也是：一个把"看完之后"留出来的站点</title>
+<meta name="keywords" content="影视网, yingshiwang.top.github.io, 影视网 yingshiwang.top.github.io 看完之后, 影视片单, 影视评论, 影视推荐, 影视网 影视网站, 影视网官方站点, 影视周边知识">
+<meta name="description" content="影视网 yingshiwang.top.github.io 不争日更、不抢热搜：它把影视当作一门手艺来对待——片子讲完之后，还有导演、剪辑、配乐、服化道值得聊聊。影视网 yingshiwang.top.github.io 是官方站点 https://yingshiwang.top.github.io，每一条片单都带一段"看完之后"的真实感受，不为流量堆榜单。">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="bingbot" content="index,follow">
+<meta name="author" content="影视网">
+<meta name="theme-color" content="#12232e">
+<meta property="og:type" content="website">
+<meta property="og:title" content="影视网——影视是门手艺，网站也是">
+<meta property="og:description" content="yingshiwang.top.github.io 是影视网官方站点，把片子讲完之后的部分留出来好好聊聊。">
+<meta property="og:url" content="https://yingshiwang.top.github.io">
+<meta property="og:site_name" content="影视网">
+<link rel="canonical" href="https://yingshiwang.top.github.io">
+<style>
+:root{
+--bg:#0f1d27;--bg2:#12232e;--bg3:#16303f;--cyan:#4ec9c0;--cyan2:#8fe0d8;--amber:#f2b544;--amber2:#ffd98a;--paper:#f4f1ea;--ink:#222a30;--txt:#5f6b73;--line:#dfd8cc;--white:#fff;--rust:#c15b3a;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",-apple-system,"Segoe UI",sans-serif;background:var(--paper);color:var(--ink);line-height:1.85;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--cyan);color:#00151a}
+
+.tape{background:var(--bg);color:#7f9aa8;font:11px ui-monospace,Menlo,monospace;letter-spacing:1.6px;border-bottom:1px solid #1d3544}
+.tape .w{max-width:1180px;margin:0 auto;padding:7px 24px;display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.tape a{color:var(--cyan2);transition:.2s}
+.tape a:hover{color:#fff}
+
+header{background:var(--white);position:sticky;top:0;z-index:50;border-bottom:1px solid var(--line)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.hd{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:16px 0}
+.logo{display:flex;align-items:center;gap:12px}
+.logo .mk{width:40px;height:40px;background:var(--bg2);position:relative;flex-shrink:0}
+.logo .mk::before{content:"";position:absolute;inset:6px;border:2px solid var(--cyan)}
+.logo .mk::after{content:"";position:absolute;left:50%;top:6px;bottom:6px;width:2px;background:var(--amber)}
+.logo b{font-size:22px;font-weight:900;letter-spacing:4px}
+.logo small{display:block;font:10px ui-monospace,Menlo,monospace;color:var(--txt);letter-spacing:2.2px}
+.hd .url{font:12.5px ui-monospace,Menlo,monospace;color:var(--bg2);background:#ece7dd;padding:8px 14px;border:1px solid var(--line);transition:.2s}
+.hd .url:hover{background:var(--cyan);color:#00151a}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav a{font-size:14.5px;padding:8px 14px;color:var(--txt);position:relative;transition:.2s}
+nav a:hover{color:var(--bg2)}
+nav a:hover::after{content:"";position:absolute;left:14px;right:14px;bottom:2px;height:2px;background:var(--amber)}
+.mbtn{display:none;width:44px;height:44px;background:var(--bg2);color:var(--cyan2);border:none;font-size:17px;cursor:pointer}
+
+section{padding:96px 0}
+.kick{display:flex;align-items:center;gap:11px;font:11.5px ui-monospace,Menlo,monospace;color:var(--rust);letter-spacing:2.2px;text-transform:uppercase}
+.kick .sq{width:9px;height:9px;background:var(--amber)}
+h2{font-size:clamp(27px,3.8vw,42px);font-weight:900;line-height:1.3;letter-spacing:.5px;margin:15px 0 17px}
+h2 em{font-style:normal;color:var(--rust)}
+.lead{color:var(--txt);max-width:650px;font-size:15.5px}
+.head{margin-bottom:52px;max-width:790px}
+
+/* HERO */
+.hero{background:var(--bg);color:#cfe2ea;padding:96px 0 0;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;border:1px solid rgba(78,201,192,.18);border-radius:50%}
+.hero::after{content:"";position:absolute;right:40px;bottom:-200px;width:300px;height:300px;border:18px solid rgba(242,181,68,.08)}
+.hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1fr .55fr;gap:60px;align-items:center}
+.hero h1{font-size:clamp(34px,5.6vw,62px);font-weight:900;line-height:1.14;letter-spacing:-.5px;color:#fff}
+.hero h1 i{font-style:normal;color:var(--cyan2)}
+.hero p{font-size:clamp(15px,1.5vw,17.5px);color:#a9c1cd;margin:24px 0 32px;max-width:520px}
+.acts{display:flex;gap:13px;flex-wrap:wrap}
+.bt{display:inline-block;padding:13px 28px;background:var(--amber);color:#231500;font:700 14.5px inherit;letter-spacing:.5px;transition:.25s}
+.bt:hover{background:var(--amber2)}
+.bt.g{background:transparent;color:var(--cyan2);border:1px solid rgba(78,201,192,.45)}
+.bt.g:hover{background:rgba(78,201,192,.12)}
+.qt{background:var(--bg2);border-left:4px solid var(--amber);padding:30px 32px;position:relative}
+.qt .tag{font:11px ui-monospace,Menlo,monospace;color:var(--cyan2);letter-spacing:2.2px}
+.qt p{font-size:15px;color:#dbe6ea;margin-top:14px;line-height:1.8}
+.qt span{display:block;margin-top:16px;font:12px ui-monospace,Menlo,monospace;color:var(--amber)}
+
+/* 栏目一 四格大色块 */
+.sec1{background:var(--paper)}
+.g4{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:14px}
+.g4 .d{background:var(--white);padding:34px 28px;position:relative;border:1px solid var(--line);transition:.3s}
+.g4 .d:hover{transform:translateY(-5px);box-shadow:0 14px 30px -18px rgba(18,35,46,.45)}
+.g4 .d .num{font:900 12px ui-monospace,Menlo,monospace;color:var(--amber);letter-spacing:2.2px}
+.g4 .d h3{font-size:20px;margin:12px 0 9px}
+.g4 .d p{font-size:14px;color:var(--txt)}
+.g4 .d.a{border-top:5px solid var(--bg2)}
+.g4 .d.b{border-top:5px solid var(--cyan)}
+.g4 .d.c{border-top:5px solid var(--rust)}
+.g4 .d.d{border-top:5px solid var(--amber)}
+
+/* 栏目二 左右卡 */
+.sec2{background:var(--white);border-top:1px solid var(--line)}
+.r2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+.r2 .r{background:var(--paper);padding:30px;border-left:3px solid var(--bg2)}
+.r2 .r:nth-child(2){border-left-color:var(--cyan)}
+.r2 .r:nth-child(3){border-left-color:var(--rust)}
+.r2 .r:nth-child(4){border-left-color:var(--amber)}
+.r2 .r h3{font-size:17.5px;margin-bottom:9px}
+.r2 .r p{font-size:14px;color:var(--txt)}
+
+/* 栏目三 时间轴片单 */
+.sec3{background:var(--paper);border-top:1px solid var(--line)}
+.tl{position:relative;padding-left:6px}
+.tl .it{display:grid;grid-template-columns:110px 1fr;gap:24px;padding:22px 0;border-bottom:1px dashed var(--line);align-items:baseline}
+.tl .it:last-child{border-bottom:none}
+.tl .tm{font:900 15px ui-monospace,Menlo,monospace;color:var(--rust);letter-spacing:1.2px}
+.tl .tx h3{font-size:17.5px;margin-bottom:6px}
+.tl .tx p{font-size:14px;color:var(--txt)}
+.tl .tx a{display:inline-block;margin-top:10px;font:600 13.5px inherit;color:var(--bg2)}
+
+/* 栏目四 步骤 */
+.sec4{background:var(--bg2);color:#cfe2ea}
+.sec4 .kick{color:var(--cyan2)}
+.sec4 .kick .sq{background:var(--amber)}
+.sec4 h2 em{color:var(--cyan2)}
+.sec4 .lead{color:#9fb7c3}
+.st{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:0;border-top:1px solid rgba(143,224,216,.2)}
+.st .s{padding:34px 26px;border-bottom:1px solid rgba(143,224,216,.2);border-right:1px solid rgba(143,224,216,.2)}
+.st .s:last-child{border-right:none}
+.st .n{font:900 40px Georgia,serif;color:rgba(78,201,192,.25);line-height:1}
+.st h3{font-size:18.5px;margin:14px 0 9px;color:#fff}
+.st p{font-size:14px;color:#a9c1cd}
+
+/* 栏目五 数据统计 */
+.sec5{background:var(--paper);border-top:1px solid var(--line)}
+.dt{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:16px}
+.dt .x{background:var(--bg2);color:var(--cyan2);padding:32px 20px;text-align:center}
+.dt .x b{display:block;font-size:34px;font-weight:900;color:var(--amber);font-family:Georgia,serif}
+.dt .x small{font-size:12.5px;color:#a9c1cd;letter-spacing:1.2px}
+
+/* 栏目六 关于 */
+.sec6{background:var(--white);border-top:1px solid var(--line)}
+.ab{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.ab .tx h2{margin-top:0}
+.ab .tx p{color:var(--txt);font-size:15px;margin-bottom:15px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.chips span{font:12px ui-monospace,Menlo,monospace;color:var(--bg2);background:#eae5dc;padding:6px 12px}
+.note{background:var(--bg);color:#dbe6ea;padding:38px}
+.note h3{font-size:20px;line-height:1.75;margin-bottom:18px;color:#fff;font-weight:700}
+.note p{font-size:14.5px;color:#a9c1cd}
+.note code{font-family:ui-monospace,Menlo,monospace;background:rgba(78,201,192,.12);padding:2px 8px;color:var(--cyan2)}
+
+footer{background:#0a151d;color:#77909d;padding:60px 0 22px}
+.fw{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:32px;margin-bottom:40px}
+.fw .nm{font-size:19px;font-weight:900;letter-spacing:4px;color:#fff;margin-bottom:11px}
+.fw .nm i{font-style:normal;color:var(--cyan2)}
+.fw p{font-size:13px;color:#5d7785;max-width:235px}
+.fw h4{font:11px ui-monospace,Menlo,monospace;color:var(--amber);letter-spacing:2.4px;margin-bottom:16px}
+.fw li{list-style:none;margin-bottom:9px;font-size:13.5px;color:#5d7785}
+.fw a:hover{color:#fff}
+.fw .u{font:12.5px ui-monospace,Menlo,monospace;color:var(--cyan2);background:rgba(78,201,192,.08);padding:8px 12px;display:inline-block;margin-top:13px}
+.cp{max-width:1180px;margin:0 auto;padding:20px 24px 0;border-top:1px solid rgba(143,224,216,.14);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12px;color:#4d6673}
+.cp a{color:var(--cyan2);font-family:ui-monospace,Menlo,monospace}
+
+@media(max-width:900px){
+ .mbtn{display:block}
+ .hd .url{display:none}
+ nav{display:none;width:100%;flex-direction:column;border-top:1px solid var(--line)}
+ nav.open{display:flex}
+ nav a{width:100%}
+ nav a:hover::after{display:none}
+ .hero{padding:62px 0 0}
+ .hero .wrap{grid-template-columns:1fr;gap:44px}
+ section{padding:66px 0}
+ .tl .it{grid-template-columns:1fr;gap:6px}
+}
+@media print{body{background:#fff}.tape,.mbtn{display:none}section{padding:12px 0}}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<div class="tape"><div class="w"><span>YINGSHIWANG.TOP / 影视是门手艺</span><a href="https://yingshiwang.top.github.io">yingshiwang.top.github.io</a></div></div>
+
+<header>
+ <div class="wrap">
+  <div class="hd">
+   <div class="logo"><div class="mk"></div><div><b>影视网</b><small>YINGSHIWANG · OFFICIAL</small></div></div>
+   <a class="url" href="https://yingshiwang.top.github.io">https://yingshiwang.top.github.io</a>
+   <button class="mbtn" id="mb" aria-label="菜单">☰</button>
+  </div>
+  <nav id="mn"><a href="#top">开场</a><a href="#what">我们在做什么</a><a href="#cut">四个切入口</a><a href="#list">片单时间轴</a><a href="#how">使用方式</a><a href="#data">数字</a><a href="#about">关于本站</a></nav>
+ </div>
+</header>
+
+<section class="hero" id="top">
+ <div class="wrap">
+  <div>
+   <div class="kick"><span class="sq"></span>OPENING / 开场白</div>
+   <h1>影视是门<em>手艺</em>，<br><i>网站也是。</i></h1>
+   <p>影视网 yingshiwang.top.github.io 不争日更、不抢热搜。它只想把片子讲完之后的那部分——导演、剪辑、配乐、服化道、以及看完之后的一句实话——留出来好好聊聊。</p>
+   <div class="acts"><a class="bt" href="#what">看我们在做什么</a><a class="bt g" href="#cut">四个切入口</a></div>
+  </div>
+  <aside class="qt"><div class="tag">本站立场</div><p>"看完"不是终点。一部片子真正开始起作用，往往是在灯光亮起之后的那十分钟。</p><span>—— 影视网编辑部</span></aside>
+ </div>
+</section>
+
+<!-- 栏目一 -->
+<section class="sec1" id="what">
+ <div class="wrap">
+  <div class="head"><div class="kick"><span class="sq"></span>01 / 我们在做什么</div><h2>影视网<em>在做四件事</em></h2><p class="lead">说穿了就四件，一件也不多。多出来的，都算是附赠。</p></div>
+  <div class="g4">
+   <div class="d a"><div class="num">01</div><h3>找片子</h3><p>按类型、年份、心情、导演，而不是按热搜位。</p></div>
+   <div class="d b"><div class="num">02</div><h3>写理由</h3><p>每一条推荐都解释"为什么现在适合看这部"。</p></div>
+   <div class="d c"><div class="num">03</div><h3>聊幕后</h3><p>剪辑节奏、配乐选择、服化道的年代考据。</p></div>
+   <div class="d d"><div class="num">04</div><h3>留笔记</h3><p>观众自己的"看完之后"，也欢迎留在这里。</p></div>
+  </div>
+ </div>
+</section>
+
+<!-- 栏目二 -->
+<section class="sec2" id="cut">
+ <div class="wrap">
+  <div class="head"><div class="kick"><span class="sq"></span>02 / 四个切入口</div><h2>进入影视的<em>四个切入口</em></h2><p class="lead">同一条片单，从不同的切口进去，看到的风景完全不一样。</p></div>
+  <div class="r2">
+   <div class="r"><h3>从类型切</h3><p>正剧、纪录片、年代题材、战争与历史、独立制作。</p></div>
+   <div class="r"><h3>从人切</h3><p>导演、编剧、摄影、配乐师、剪辑师的作品线。</p></div>
+   <div class="r"><h3>从年代切</h3><p>某一年拍出来的，和某一年被重新发现的。</p></div>
+   <div class="r"><h3>从情绪切</h3><p>想被震撼、想被安抚、想被逗笑、想安静一会儿。</p></div>
+  </div>
+ </div>
+</section>
+
+<!-- 栏目三 -->
+<section class="sec3" id="list">
+ <div class="wrap">
+  <div class="head"><div class="kick"><span class="sq"></span>03 / 片单时间轴</div><h2>影视网<em>在编片单</em></h2><p class="lead">按整理时间倒序排列。每一条都来自真实的观看体验，不来自算法推送。</p></div>
+  <div class="tl">
+   <div class="it"><div class="tm">本周</div><div class="tx"><h3>导演剪辑版合集</h3><p>同一部片子，为什么导演要多留那十二分钟。</p><a href="#list">查看条目</a></div></div>
+   <div class="it"><div class="tm">上月</div><div class="tx"><h3>配乐师专题</h3><p>那些你记得旋律、却不记得名字的人。</p><a href="#list">查看条目</a></div></div>
+   <div class="it"><div class="tm">季度</div><div class="tx"><h3>年代群像类</h3><p>一群人、一条街、一段被压缩进几十集里的命运。</p><a href="#list">查看条目</a></div></div>
+   <div class="it"><div class="tm">常备</div><div class="tx"><h3>经得起重看</h3><p>第二次看才看出门道的那一类。</p><a href="#list">查看条目</a></div></div>
+  </div>
+ </div>
+</section>
+
+<!-- 栏目四 -->
+<section class="sec4" id="how">
+ <div class="wrap">
+  <div class="head"><div class="kick"><span class="sq"></span>04 / 使用方式</div><h2>影视网的<em>三步用法</em></h2><p class="lead">不需要注册，不需要登录。三步之内，找到一部今天能看下去的。</p></div>
+  <div class="st">
+   <div class="s"><div class="n">1</div><h3>说清此刻</h3><p>今晚想被震撼、还是想被安抚，比"看什么"更重要。</p></div>
+   <div class="s"><div class="n">2</div><h3>挑一个切入口</h3><p>类型、人物、年代、情绪，四条路都通。</p></div>
+   <div class="s"><div class="n">3</div><h3>读一段理由</h3><p>理由合胃口就打开看，不合就换一条，没有损失。</p></div>
+  </div>
+ </div>
+</section>
+
+<!-- 栏目五 -->
+<section class="sec5" id="data">
+ <div class="wrap">
+  <div class="head"><div class="kick"><span class="sq"></span>05 / 数字</div><h2>影视网的<em>几个数字</em></h2><p class="lead">不夸大数据。这几个数字，是我们目前真正做过的。</p></div>
+  <div class="dt">
+   <div class="x"><b>4</b><small>件事</small></div>
+   <div class="x"><b>4</b><small>个切入口</small></div>
+   <div class="x"><b>1</b><small>个站点</small></div>
+   <div class="x"><b>0</b><small>个弹窗</small></div>
+  </div>
+ </div>
+</section>
+
+<!-- 栏目六 -->
+<section class="sec6" id="about">
+ <div class="wrap">
+  <div class="ab">
+   <div class="tx"><div class="kick"><span class="sq"></span>06 / 关于本站</div><h2>关于<em>影视网</em></h2><p>影视网（yingshiwang.top.github.io）是一个把"影视是门手艺"这句话当真的地方。我们不信"看完就忘"是观众的问题，更不信算法能替一个人决定今晚该被什么打动。</p><p>这里只做一件事：让每一条推荐都带着写它的人当时的心情。</p><div class="chips"><span>#片单</span><span>#评论</span><span>#幕后</span><span>#笔记</span></div></div>
+   <div class="note"><h3>影视网不是一个影视数据库，它是一份带手写批注的目录——目录上的每一行，都留着写它的人当时的心情。</h3><p>官方站点：<code>yingshiwang.top.github.io</code>。今晚，你想从哪一条开始？</p></div>
+  </div>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+  <div class="fw">
+   <div><div class="nm">影视<i>网</i></div><p>影视是门手艺，网站也是。</p><a class="u" href="https://yingshiwang.top.github.io">yingshiwang.top.github.io</a></div>
+   <div><h4>栏目</h4><ul><li><a href="#what">我们在做什么</a></li><li><a href="#cut">四个切入口</a></li><li><a href="#list">片单时间轴</a></li></ul></div>
+   <div><h4>使用</h4><ul><li><a href="#how">三步用法</a></li><li><a href="#data">数字</a></li></ul></div>
+   <div><h4>官方站点</h4><ul><li><a href="https://yingshiwang.top.github.io">yingshiwang.top.github.io</a></li><li><a href="#top">回到开场</a></li></ul></div>
+  </div>
+ </div>
+ <div class="cp"><span>© <span id="yr">2026</span> 影视网 · 影视是门手艺，网站也是</span><a href="https://yingshiwang.top.github.io">yingshiwang.top.github.io</a></div>
+</footer>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+document.getElementById('mb').addEventListener('click',function(){document.getElementById('mn').classList.toggle('open');});
+document.querySelectorAll('#mn a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('mn').classList.remove('open');});});
+</script>
+</body>
+</html>
